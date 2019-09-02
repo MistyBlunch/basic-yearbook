@@ -1,0 +1,70 @@
+/* 
+# -> id
+. -> class
+img -> img
+ */
+
+body {
+  margin: 0;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+#foto-grupal-img {
+  width: 100%;
+}
+
+#companeros {
+  text-align: center;
+}
+
+.compañeros-container {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0 10px;
+}
+
+#ver-mas {
+  background-color: #c8c8c8;
+  border: none;
+  padding: 4px 8px;
+}
+
+#carousel {
+  text-align: center;
+  background-color: #e0e0e0;
+  padding: 2rem 0;
+}
+
+.car-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.car-imgs {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+
+.car-imgs img {
+  width: 30%;
+  height: 250px;
+}

@@ -44,6 +44,7 @@ section:last-child {
   background-color: #c8c8c8;
   border: none;
   padding: 4px 8px;
+  cursor: pointer;
 }
 
 #carousel {
@@ -67,4 +68,13 @@ section:last-child {
 .car-imgs img {
   width: 30%;
   height: 250px;
+}
+
+#compañeros-ver-mas {
+  display: none;
+}
+
+
+.icon-car {
+  cursor: pointer;
 }
